@@ -1,23 +1,23 @@
-# project_act3 - IPv4/IPv6 Address Application
+# project_act3 - IPv4 Address Application
 
 ## Project Description
 
-The IPv4/IPv6 Address Application is a Python-based command-line utility designed to help network technicians retrieve and view public IP address information and related network details.
+The IPv4 Address Application is a Python-based command-line utility designed to help network technicians retrieve and view public IPv4 address information and related network details.
 
 The application integrates the ipapi.co REST API to retrieve network information and display it in an organized terminal interface.
 
 ## Project Objectives
 
-- Retrieve the public IP address of the current internet connection.
-- Identify the IP version (IPv4 or IPv6) returned by the API.
-- Display geographical information associated with the IP address.
+- Retrieve the public IPv4 address of the current internet connection.
+- Identify the IP version returned by the API.
+- Display geographical information associated with the public IP address.
 - Identify the Internet Service Provider (ISP).
 - Retrieve the Autonomous System Number (ASN).
 - Provide a simple and organized command-line diagnostic interface.
 
 ## Features
 
-1. Public IP Address Retrieval
+1. Public IPv4 Address Retrieval
 2. IP Version Identification
 3. City and Region Information
 4. Country and Postal Code Information
@@ -65,7 +65,7 @@ The API returns network information in JSON format. Python processes the respons
 
 ## Error Handling
 
-The application includes error handling for network communication failures and displays a message when network information cannot be retrieved.
+The application includes error handling for network communication failures and displays an error message when network information cannot be retrieved.
 
 Missing dictionary keys are displayed as `N/A`.
 
@@ -74,24 +74,27 @@ Missing dictionary keys are displayed as `N/A`.
 - Requires an active internet connection.
 - Depends on the availability of the ipapi.co API.
 - Geolocation information may not represent the exact physical location.
-- Does not currently include explicit IPv4 and IPv6 querying.
+- Currently retrieves and displays the public IP information returned by the API.
 - Does not currently include ping or latency testing.
 - Does not currently export diagnostic results into files.
+- Does not include a separate IPv6 detection or querying feature.
 
 ## Future Enhancements
 
-- Separate IPv4 and IPv6 querying.
 - Ping and latency testing.
 - CSV and JSON export functionality.
 - Graphical User Interface (GUI).
 - Improved API timeout handling.
+- Additional network diagnostic features.
 
 ## Quality Assurance
 
 The application undergoes functional testing and error-handling testing to verify its expected behavior.
 
 Testing includes:
+
 - Successful API retrieval.
+- Public IP address and IP version display.
 - Network information display.
 - Missing information handling.
 - Network communication errors.
@@ -101,7 +104,7 @@ Detailed testing results are documented in the project's QA Test Cases spreadshe
 
 ## Project Repository
 
-GitHub Repository: `project_act4`
+GitHub Repository: `project_act3`
 
 ## License
 
