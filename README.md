@@ -99,17 +99,6 @@ Testing includes:
 
 Detailed testing results are documented in the project's QA Test Cases spreadsheet.
 
-## Project Contributors
-
-| Member | Responsibility |
-|---|---|
-| Bea | Scrum Leader / Project Manager |
-| Miki | Quality Assurance and Documentation Specialist |
-| Neri | Git / GitHub Administrator |
-| Maxine | Lead Python Developer |
-
-*Note: Update the member responsibilities if your group has changed roles.*
-
 ## Project Repository
 
 GitHub Repository: `project_act4`
